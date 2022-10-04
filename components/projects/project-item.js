@@ -36,12 +36,12 @@ export default function ProjectItem({data}){
                 alt = 'cover image'
                 width = '100%'
                 height = '50%'
-                layout = 'responsive'
+                layout = 'fill'
                 objectFit = "cover"
                 quality = {100}
             />
 
-            <div className='p-4 flex flex-row'>
+            <div className='p-4 flex flex-col'>
                 <h1 className="text-2xl font-bold">{title}</h1>
                 <h3 className = "mt-4 text-xl">{description}</h3>
                 <a href={github}>Visit Github</a>

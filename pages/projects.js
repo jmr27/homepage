@@ -13,7 +13,7 @@ export default function Projects({projects}){
                     <meta name="description" content="Personal Webpage" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
-                <div className='grid gird-cols-1 md:grid-cols-2 p-12 m-6 gap-8'>
+                <div className='grid gird-cols-1 md:grid-cols-2 px-12 py-10 m-8 gap-8'>
                     {projects.results.map((aProject) => (
                         <ProjectItem key={aProject.id} data={aProject} />
                     ))}
