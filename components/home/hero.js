@@ -12,6 +12,11 @@ export default function Hero() {
             M.S. Student at Civil and Environmental Engineering in Seoul National University
             </p>
             <div className="flex justify-center">
+                <Link href="/about">
+                    <a className="btn-about">
+                        About Me
+                    </a>
+                </Link>
                 <Link href="/projects">
                     <a className="btn-project">
                         Projects
