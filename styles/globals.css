@@ -11,7 +11,7 @@
 }
 
 .project-card {
-    @apply flex flex-col m-3 
+    @apply flex flex-col m-10
             transition duration-300 transform border border-gray-300
             hover:scale-105
             hover:shadow-lg
