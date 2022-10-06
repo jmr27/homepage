@@ -28,9 +28,10 @@ export default function ProjectItem({data}){
     };
 
     return(
-        <div className='project-card'>
+        <a className='project-card' href = {github}>
 
             <Image 
+                className = 'rounded-t-xl'
                 src = {imgSrc}
                 alt = 'cover image'
                 width = '100%'
@@ -51,6 +52,6 @@ export default function ProjectItem({data}){
                 </div>
             </div>
             
-        </div>
+        </a>
     );
 }
