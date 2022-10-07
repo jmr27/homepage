@@ -12,9 +12,9 @@ export default function Hero() {
             M.S. Student at Civil and Environmental Engineering in Seoul National University
             </p>
             <div className="flex justify-center">
-                <Link href="/about">
+                <Link href="/Curriculum Vitae 2022.pdf" alt = "alt text" target = "_blank" rel = "noopener noreferrer">
                     <a className="btn-about">
-                        About Me
+                        Download CV
                     </a>
                 </Link>
                 <Link href="/projects">
